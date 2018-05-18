@@ -11,7 +11,7 @@ y = weight * x_data + biases
 loss = tf.reduce_mean( tf.square( y - y_data ) )
 optimizer = tf.train.GradientDescentOptimizer( 0.5 )
 train = optimizer.minimize( loss )
-init = tf.initialize_all_variables( )
+init = tf.global_variables_initializer( )
 
 sess = tf.Session( )
 

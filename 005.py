@@ -1,12 +1,12 @@
 #!/usr/bin/env python
-#-*- coding:utf-8 -*-
+# -*- coding:utf-8 -*-
 #       FileName:  003.py
 #
 #    Description:
 #
 #        Version:  1.0
 #        Created:  2019-05-25 14:02:08
-#  Last Modified:  2019-06-05 16:48:01
+#  Last Modified:  2019-09-02 16:33:13
 #       Revision:  none
 #       Compiler:  gcc
 #
@@ -28,8 +28,8 @@ for i in range(num_points):
 x_data = [v[0] for v in vectors_set]
 y_data = [v[1] for v in vectors_set]
 
-#plt.scatter(x_data, y_data, c='r')
-#plt.show()
+plt.scatter(x_data, y_data, c='r')
+plt.show()
 
 W = tf.Variable(tf.random_uniform([1], -1, 1.0), name='W')
 b = tf.Variable(tf.zeros([1]), name='b')

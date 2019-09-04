@@ -1,12 +1,12 @@
 #!/usr/bin/env python
-#-*- coding:utf-8 -*-
+# -*- coding:utf-8 -*-
 #       FileName:  003.py
 #
 #    Description:
 #
 #        Version:  1.0
 #        Created:  2019-05-25 14:02:08
-#  Last Modified:  2019-06-05 10:54:20
+#  Last Modified:  2019-09-04 14:22:58
 #       Revision:  none
 #       Compiler:  gcc
 #
@@ -40,7 +40,7 @@ tan = tf.convert_to_tensor(an)
 
 o1 = tf.placeholder(tf.float32)
 o2 = tf.placeholder(tf.float32)
-o = tf.multiply(o1,o2)
+o = tf.multiply(o1, o2)
 
 with tf.Session() as sess:
     sess.run(tf.global_variables_initializer())

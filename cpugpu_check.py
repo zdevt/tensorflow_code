@@ -1,12 +1,12 @@
 #!/usr/bin/env python
-#-*- coding:utf-8 -*-
+# -*- coding:utf-8 -*-
 #       FileName:  cpugpu_check.py
 #
 #    Description:
 #
 #        Version:  1.0
 #        Created:  2019-08-10 22:21:15
-#  Last Modified:  2019-08-10 22:21:22
+#  Last Modified:  2019-10-07 22:19:53
 #       Revision:  none
 #       Compiler:  gcc
 #
